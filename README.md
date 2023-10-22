@@ -12,7 +12,7 @@
 
     - [docs.storj.io/dcs/getting-started](https://docs.storj.io/dcs/getting-started)
 
-2. Get the credentials a put them in a `.env` file based off of `.env.template`.
+2. Get the credentials and put them in a `.env` file based off of `.env.template`.
 
 3. Run the server
 
@@ -21,5 +21,5 @@
     ```
 
     Endpoints:
-    list all avaliable buckets `GET http://localhost:8080/buckets`
-    list all objects in bucket `http://localhost:8080/buckets/{bucketName}`
+    - list all avaliable buckets `GET http://localhost:8080/buckets`
+    - list all objects in bucket `GET http://localhost:8080/buckets/{bucketName}`
